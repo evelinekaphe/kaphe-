@@ -1,0 +1,104 @@
+body {
+    font-family: cursive; sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    background-color: #008000;
+    color: white;
+    padding: 1rem;
+}
+
+
+header nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header nav a {
+    color: yellowgreen;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: all;
+    justify-content: space-around;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item img {
+    width: 150px;
+    height: 150px;
+    transition: transform 0.3s;
+}
+
+.carousel-item img:hover {
+    transform: scale(1.05);
+}
+
+.destination-grid {
+    display: flex; /* Ensures proper wrapping */
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.destination {
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
+    width: 150px;
+    text-align: left; /* Fixed syntax error */
+}
+
+.destination img {
+    width: 80px;
+    height: 80px;
+    transition: transform 0.3s;
+    margin: 3px;
+     grid-template-rows: 100px 100px;
+    g  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    ap: 10px;
+}
+
+.destination a {
+    text-decoration: none;
+    color: #008000; /* Text color */
+    font-weight: bold;
+    background-color: white; /* Fixed color value */
+    text-align: center; /* Added text alignment */
+    padding: 0.5rem; /* Added padding for better spacing */
+   margin: 3px;
+     grid-template-rows: 100px 100px;
+    g  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    ap: 10px;
+  
+}
+
+.destination a:hover {
+    text-decoration: underline;
+}
+
+.media {
+    text-align: center;
+    margin: 20px;
+    display: flex;
+}
+
+ footer {
+    background-color: green;
+    color: white;
+    text-align: center;
+ }
